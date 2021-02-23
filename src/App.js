@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Amelia from './components/Amelia/Amelia'
 import Karoline from './components/Karoline/Karoline'
+import Julia from './components/Julia/Julia'
 
 
 function App() {
