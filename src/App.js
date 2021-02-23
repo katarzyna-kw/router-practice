@@ -10,25 +10,25 @@ function App() {
   return (
     <div className="wrapper">
       <h1>AKJ</h1>
-      <nav>
-        <ul>
-          <li><Link to="/Amelia">Amelia</Link></li>
-          <li><Link to="/Karoline">Karoline</Link></li>
-          <li><a href="/Julia">Julia</a></li>
-        </ul>
-      </nav>
       <BrowserRouter>
-        <Switch>
-          <Route path="/Amelia">
-            <Amelia />
-          </Route>
-          <Route path="/Karoline">
-            <Karoline />
-          </Route>
-          <Route path="/Julia">
-            <Julia />
-          </Route>
-        </Switch>
+        <nav>
+          <ul>
+            <li><Link to="/Amelia">Amelia</Link></li>
+            <li><Link to="/Karoline">Karoline</Link></li>
+            <li><a href="/Julia">Julia</a></li>
+          </ul>
+        </nav>
+          <Switch>
+            <Route path="/Amelia">
+              <Amelia />
+            </Route>
+            <Route path="/Karoline">
+              <Karoline />
+            </Route>
+            <Route path="/Julia">
+              <Julia />
+            </Route>
+          </Switch>
       </BrowserRouter>
     </div>
   );
