@@ -10,6 +10,13 @@ function App() {
   return (
     <div className="wrapper">
       <h1>AKJ</h1>
+      <nav>
+        <ul>
+          <li><a href="/Amelia">Amelia</a></li>
+          <li><a href="/Karoline">Karoline</a></li>
+          <li><a href="/Julia">Julia</a></li>
+        </ul>
+      </nav>
       <BrowserRouter>
         <Switch>
           <Route path="/Amelia">
