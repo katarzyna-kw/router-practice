@@ -12,13 +12,13 @@ function App() {
       <h1>AKJ</h1>
       <BrowserRouter>
         <Switch>
-          <Route path="/">
+          <Route path="/Amelia">
             <Amelia />
           </Route>
-          <Route path="/">
+          <Route path="/Karoline">
             <Karoline />
           </Route>
-          <Route path="/">
+          <Route path="/Julia">
             <Julia />
           </Route>
         </Switch>
