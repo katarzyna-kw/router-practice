@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Amelia from './components/Amelia/Amelia'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>
         AKJ
       </h1>
+      <Amelia />
     </div>
   );
 }
