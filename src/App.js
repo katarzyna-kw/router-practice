@@ -8,7 +8,12 @@ function App() {
     <div className="wrapper">
       <h1>AKJ</h1>
       <BrowserRouter>
-        <Amelia />
+        <Switch>
+          <Route path="/">
+            <Amelia />
+          </Route>
+        </Switch>
+        <
       </BrowserRouter>
     </div>
   );
