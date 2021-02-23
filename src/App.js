@@ -15,6 +15,9 @@ function App() {
           <Route path="/">
             <Karoline />
           </Route>
+          <Route path="/">
+            <Julia />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
