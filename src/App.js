@@ -15,7 +15,7 @@ function App() {
           <ul>
             <li><Link to="/Amelia">Amelia</Link></li>
             <li><Link to="/Karoline">Karoline</Link></li>
-            <li><a href="/Julia">Julia</a></li>
+            <li><Link to="/Julia">Julia</Link></li>
           </ul>
         </nav>
           <Switch>
