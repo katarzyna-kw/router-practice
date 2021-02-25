@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+import './index.css'
 import Amelia from './components/Amelia/Amelia'
 import Karoline from './components/Karoline/Karoline'
 import Julia from './components/Julia/Julia'
