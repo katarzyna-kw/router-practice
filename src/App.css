@@ -20,6 +20,10 @@ h2 span {
   color: #FF91A4
 }
 
+h3 {
+  color: white;
+}
+
 li {
   font-size: 1.3rem;
   text-transform: uppercase;
