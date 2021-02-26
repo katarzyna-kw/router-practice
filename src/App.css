@@ -24,8 +24,10 @@ li {
 
 a {
   color: #40E0D0;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #FFFF47
+  color: #FFFF47;
+  text-decoration: overline;
 }
