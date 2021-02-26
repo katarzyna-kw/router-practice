@@ -21,9 +21,10 @@ h2 span {
 }
 
 li {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   list-style: none;
+  font-weight: bold;
 }
 
 a {
