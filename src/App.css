@@ -16,6 +16,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+h2 span {
+  color: #FF91A4
+}
+
 li {
   font-size: 1rem;
   text-transform: uppercase;
