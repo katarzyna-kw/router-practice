@@ -26,6 +26,7 @@ h3 {
 
 ul {
   display: flex;
+  justify-content: space-evenly;
 }
 
 li {
