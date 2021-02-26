@@ -25,3 +25,7 @@ li {
 a {
   color: #40E0D0;
 }
+
+a:hover {
+  color: #FFFF47
+}
