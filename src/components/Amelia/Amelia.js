@@ -1,4 +1,7 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+import Beluga from './Beluga';
+import Blue from './Blue';
 
 export default function Amelia() {
   return (
