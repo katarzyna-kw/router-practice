@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+
 import './index.css'
 import Amelia from './components/Amelia/Amelia'
 import Karoline from './components/Karoline/Karoline'
@@ -15,6 +16,7 @@ function App() {
         <nav>
           <ul>
             <li><Link to="/Amelia">Amelia</Link></li>
+            <li><Link to="/Amelia?type=beluga">Beluga Whale</Link></li>
             <li><Link to="/Karoline">Karoline</Link></li>
             <li><Link to="/Julia">Julia</Link></li>
           </ul>
