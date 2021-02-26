@@ -9,3 +9,8 @@ h1 {
   text-transform: lowercase;
   color: #DA70D6;
 }
+
+h2 {
+  font-family: 'Yeseva One', cursive;
+  color: white;
+}
