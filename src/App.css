@@ -24,6 +24,10 @@ h3 {
   color: white;
 }
 
+ul {
+  display: flex;
+}
+
 li {
   font-size: 1.3rem;
   text-transform: uppercase;
