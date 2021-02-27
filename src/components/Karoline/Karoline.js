@@ -8,7 +8,7 @@ export default function Karoline() {
   const { path } = useRouteMatch();
 
   return (
-    <>
+    <div className="kWrapper">
     <h2>Karoline</h2>
     <Switch>
     <Route path={`${path}/Catfish`}>
@@ -18,6 +18,6 @@ export default function Karoline() {
       <Flounder />
     </Route>
   </Switch>
-  </>
+  </div>
   );
 }
