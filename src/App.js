@@ -31,9 +31,6 @@ function App() {
             <Route exact path="/Karoline">
               <Karoline />
             </Route>
-            <Route path="/Karoline/:type">
-              <Karoline />
-            </Route>
             <Route path="/Julia">
               <Julia />
             </Route>
