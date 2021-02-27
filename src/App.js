@@ -20,7 +20,7 @@ function App() {
             <li><Link to="/Amelia?type=blue">Blue Whale</Link></li>
             <li><Link to="/Karoline">Karoline</Link></li>
             <li><Link to="/Karoline/Catfish">Catfish</Link></li>
-
+            <li><Link to="/Karoline/Flounder">Flounder</Link></li>
             <li><Link to="/Julia">Julia</Link></li>
           </ul>
         </nav>
