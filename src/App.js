@@ -28,7 +28,7 @@ function App() {
             <Route path="/Amelia">
               <Amelia />
             </Route>
-            <Route exact path="/Karoline">
+            <Route path="/Karoline">
               <Karoline />
             </Route>
             <Route path="/Julia">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, useRouteMatch, Route, Switch } from 'react-router-dom';
+import { useRouteMatch, Route, Switch } from 'react-router-dom';
 import Catfish from './Catfish';
 import Flounder from './Flounder'
 
@@ -11,7 +11,7 @@ export default function Karoline() {
     <div className="kWrapper">
     <h2>Karoline</h2>
     <Switch>
-    <Route path={`${path}/Catfish`}>
+    <Route path={`${path}/Flounder`}>
       <Catfish />
     </Route>
     <Route path={`${path}/Flounder`}>
