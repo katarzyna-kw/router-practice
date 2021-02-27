@@ -1,8 +1,23 @@
 import React from 'react';
-import { useParams, useRouteMatch } from 'react-router-dom';
+import { useParams, useRouteMatch, Route, Switch } from 'react-router-dom';
+import Catfish from './Catfish';
+import Flounder from './Flounder'
+
 
 export default function Karoline() {
   const { path } = useRouteMatch();
 
-  return <h2>Karoline</h2>;
+  return (
+    <>
+    <h2>Karoline</h2>
+    <Switch>
+    <Route path={`${path}/Catfish`}>
+      <Catfish />
+    </Route>
+    <Route path={`${path}/Flounder`}>
+      <Flounder />
+    </Route>
+  </Switch>
+  </>
+  );
 }
