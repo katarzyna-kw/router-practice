@@ -11,7 +11,7 @@ export default function Karoline() {
     <div className="kWrapper">
     <h2>Karoline</h2>
     <Switch>
-    <Route path={`${path}/Flounder`}>
+    <Route path={`${path}/Catfish`}>
       <Catfish />
     </Route>
     <Route path={`${path}/Flounder`}>

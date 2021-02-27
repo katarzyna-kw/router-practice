@@ -4,7 +4,6 @@ export default function Catfish() {
   return(
       <>
         <h3>Catfish</h3>
-        <p>where is the text?</p>
     </>
   );
 }
