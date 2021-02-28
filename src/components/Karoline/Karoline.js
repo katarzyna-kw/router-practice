@@ -9,7 +9,7 @@ export default function Karoline() {
 
   return (
     <div className="kWrapper">
-    <h2>Karoline</h2>
+    <h2>Karoline<span>!</span></h2>
     <Switch>
     <Route path={`${path}/Catfish`}>
       <Catfish />
