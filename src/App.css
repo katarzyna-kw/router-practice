@@ -8,6 +8,8 @@ h1 {
   font-size: 3em;
   text-transform: lowercase;
   color: #DA70D6;
+  margin: 20px;
+  padding: 10px;
 }
 
 h2 {
