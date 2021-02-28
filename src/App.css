@@ -1,6 +1,6 @@
 .wrapper {
   padding: 20px;
-  background-color: #0E0E52;
+  background: linear-gradient(0deg, rgba(218,112,214,1) 0%, rgba(14,14,82,1) 30%);
 }
 
 h1 {
@@ -15,7 +15,6 @@ h2 {
   color: white;
   font-size: 2.5rem;
   text-align: center;
-  
 }
 
 h2 span {
